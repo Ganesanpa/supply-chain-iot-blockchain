@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.hero-buttons button {
+  padding: 12px 22px;
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-btn {
+  background: white;
+  color: #1e40af;
+}
+
+.verify-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 230px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f8fafc;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.footer {
+  background: #1e293b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.features-section {
+  background: #f1f5f9;
+}
+
+.features-section h2 {
+  margin-bottom: 40px;
+}
+
+.feature-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.how-section {
+  background: white;
+}
+
+.how-steps {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.how-card {
+  width: 220px;
+  padding: 25px;
+  border-radius: 12px;
+  background: #f8fafc;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  background: #2563eb;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
